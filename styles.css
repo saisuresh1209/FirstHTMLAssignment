@@ -1,0 +1,114 @@
+.Uber{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    transition: 1sec;
+    margin-left: 50px;
+    font-size: large;
+    cursor: pointer;
+}
+.Uber:hover{
+    opacity: 0.8;
+    transition: 1s;
+}
+.Uber::shadow{
+
+}
+
+
+.Amazon{
+    background-color: gold;
+    color: black;
+    font-size: large;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    margin-bottom: 50px;
+    border: 1px;
+    cursor: pointer;
+
+}
+
+.Github{
+    background-color: rgb(15, 84, 15);
+    color: white;
+    font-size: large;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: 1px;
+    cursor: pointer;
+
+}
+
+.Bootstrap{
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 1sec;
+    margin-left: 50px;
+    font-size: larger;
+    border: 1px;
+    cursor: pointer;
+}
+
+.Bootstrap1{
+    background-color: whitesmoke;
+    color: lightslategray;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 1sec;
+    margin-left: 50px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.Linked-In{
+    background-color: rgb(96, 96, 227);
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    border: 1px;
+    cursor: pointer;
+
+}
+
+.Linked-In1{
+    background-color: white;
+    color: rgb(96, 96, 227);
+    border-color: rgb(96, 96, 227);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+    cursor: pointer;
+}

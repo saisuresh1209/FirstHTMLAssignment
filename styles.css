@@ -16,9 +16,6 @@
     opacity: 0.8;
     transition: 1s;
 }
-.Uber::shadow{
-
-}
 
 
 .Amazon{
@@ -162,6 +159,8 @@ background-color: aqua;
     background-color: blue;
     color: white;
     opacity: 0.8;
+    padding-left: 50px;
+    padding-right: 50px;
     
 }
 
@@ -187,5 +186,25 @@ background-color: aqua;
     opacity: 0.8;
 }
 
+.entity{
+   font-family: Arial; 
+   padding-top: 25px;
+   padding-bottom: 20px;
+   padding-left: 10px;
+   background-color: crimson;
+   color: aliceblue;
+   display: flex;
 
+   align-items: center;
+   margin-top: 50px;
+   font-weight: bold;
+   font-size: 50px;
 
+}
+a{
+    font-weight: bold;
+    color: aliceblue;
+}
+.nothing{
+    font-style: italic;
+}

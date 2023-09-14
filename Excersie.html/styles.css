@@ -373,3 +373,80 @@ line-height: 14px;
   font-weight: bold;
   vertical-align: middle;
 }
+
+.container1{
+    margin-top: 50px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3); 
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 150px;
+    border-radius: 6px;
+    height: 250px;
+    display: block;
+}
+
+.temple{
+  
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 0px;
+  
+}
+
+.state{
+    font-weight: bold;
+    margin-top: 2px;
+    width: 300px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.request{
+    background-color: rgb(14, 143, 228);
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+    border-radius: 5px;
+  
+}
+
+.action{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.container2{
+    margin-top: 50px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3); 
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 150px;
+    border-radius: 6px;
+    height: 250px;
+    display: inline-block; 
+    transition: 0.5s;
+}
+
+.container2:hover{
+    background-color:ivory;
+    transition: 0.5s;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 155px;
+    border-radius: 6px;
+    height: 255px;
+}

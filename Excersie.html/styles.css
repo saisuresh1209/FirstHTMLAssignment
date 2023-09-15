@@ -450,3 +450,10 @@ line-height: 14px;
     border-radius: 6px;
     height: 255px;
 }
+
+.heart{
+    vertical-align:middle;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}

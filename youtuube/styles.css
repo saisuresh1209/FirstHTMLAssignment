@@ -1,55 +1,44 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+
+}
 .tumbnail{
 
-    width: 300px;
+    width: 100%;
+    border-radius: 5px;
     
 }
 
-input{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.container{
-    display: inline-block;
-    width: 300px;
-    margin-right: 25px;
-    margin-top: 25px;
-}
 
-.proflie-pic{
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
+.grid-model{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 12px;
 }
 
 .original-pic{
     width: 100%;
   
-    object-fit: right;
-    border-radius: 100px;
+    object-fit: cover;
+    border-radius: 500px;
     width: 50px;
-    height: 50px;
-
-
-
-
 }
-.content{
-    
-    width: 200px;
-    display: inline-block;
+
+.grid-content{
     margin-left: 10px;
-    
 }
+
 .video-title{
     font-family: Roboto, Arial;
     margin: 0px;
     font-size: 15px;
-    font-weight: 500rem;
+    font-weight: 500;
     margin-bottom: 0rem;
-    height: 25px;
+    
 }
-
 
 p{
   
@@ -57,10 +46,6 @@ p{
     margin-top: 0;
     margin-bottom: 0;
     
-}
-
-.main-picture{
-    margin-bottom: 15px;
 }
 
 .video-creater,
@@ -77,6 +62,6 @@ margin-right: -1.4px;
 }
 
 .video-creater{
-    margin-top: 18px;
+    margin-top: 10px;
     margin-bottom: 0.2rem;
 }

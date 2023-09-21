@@ -1,0 +1,120 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+   
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.div1{
+    background-color: lightblue;
+    width: 200px;
+}
+.div2{
+    background-color: lightpink;
+    width: 200px;
+}
+.div3{
+    background-color: lightblue;
+    width: 200px;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 70px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    justify-content:center;
+}
+.flex4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 70px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    justify-content:space-between;
+}
+
+.div200px{
+    background-color: lightblue;
+    width: 200px;
+}
+.div75px{
+    background-color: lightpink;
+    width: 75px;
+}
+
+.item1{
+    background-color: lightblue;
+    width: 50px;
+}
+.item2{
+    background-color: lightpink;
+    flex: 1;
+}
+.item3{
+    background-color: lightblue;
+    width: 50px;
+}
+
+.flex6{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 70px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 70px;
+   border: none;
+    
+    background-color: blueviolet;
+}
+
+.left{
+    color: aliceblue;
+    font-weight: 700;
+    display: flex;
+    width: 100px;
+    align-items: center;
+    font-family: Arial;
+    margin-left: 14px;
+}
+
+.middle{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    flex: 1;
+    max-width: 500px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+.right{
+    display: flex;
+    width: 100px;
+    align-items: center;
+}

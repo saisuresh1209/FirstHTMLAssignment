@@ -6,10 +6,8 @@
 
 }
 .tumbnail{
-
     width: 100%;
     border-radius: 5px;
-    
 }
 
 
@@ -21,10 +19,9 @@
 
 .original-pic{
     width: 100%;
-  
     object-fit: cover;
     border-radius: 500px;
-    width: 50px;
+   
 }
 
 .grid-content{
@@ -36,16 +33,13 @@
     margin: 0px;
     font-size: 15px;
     font-weight: 500;
-    margin-bottom: 0rem;
-    
+    margin-bottom: 0rem; 
 }
 
 p{
-  
     font-size: 1.6rem;
     margin-top: 0;
-    margin-bottom: 0;
-    
+    margin-bottom: 0;  
 }
 
 .video-creater,
@@ -58,7 +52,6 @@ font-weight: 400;
 height: auto;
 line-height: 20px;
 margin-right: -1.4px;
-
 }
 
 .video-creater{

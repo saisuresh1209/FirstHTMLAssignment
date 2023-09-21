@@ -502,3 +502,56 @@ margin-bottom: 0;
 .company{
     color:   rgb(96, 96, 96);
 }
+
+.grid-divison{
+    display: grid;
+    grid-template-columns:  155px 155px 155px;
+    column-gap: 50px;
+}
+
+.grid{
+    
+    margin-top: 50px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3); 
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 175px;
+    border-radius: 6px;
+    height: 275px;
+
+}
+.request1{
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.grid-div{
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
+   
+    margin-bottom: 10px;
+}
+
+.mutual-propic{
+    vertical-align:top;
+    object-fit: cover;
+    height: 28px;
+  width: 28px;
+  
+  border-radius: 14px;
+ 
+  margin-right: 4px;
+
+}

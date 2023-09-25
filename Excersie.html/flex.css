@@ -4,6 +4,10 @@
     margin-top: 20px;
    
 }
+.items{
+    display: flex;
+    justify-content: space-between;
+}
 .flex2{
     display: flex;
     flex-direction: row;
@@ -16,7 +20,7 @@
 }
 .div2{
     background-color: lightpink;
-    width: 200px;
+    flex: 1;
 }
 .div3{
     background-color: lightblue;

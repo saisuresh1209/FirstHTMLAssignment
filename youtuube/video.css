@@ -1,8 +1,15 @@
-.grid{
+.grid-type{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+}
+
+@media (max-width : 750px) {
+   .grid-type{
+    grid-template-columns: 1fr 1fr;
+   }
+ 
 }
 .tumbnail{
     width: 100%;

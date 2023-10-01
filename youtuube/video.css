@@ -1,27 +1,29 @@
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
-
 }
 .tumbnail{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 5px;   
 }
 
+.main-picture{
+    position: relative;
+}
 
 .grid-model{
     display: grid;
-    grid-template-columns: 50px 1fr;
-    margin-top: 12px;
+    grid-template-columns: 40px 1fr;
+    margin-top: 8px;
 }
 
 .original-pic{
-    width: 100%;
-    object-fit: cover;
-    border-radius: 500px;
-   
+   vertical-align: middle;
+    width: 36px;
+    border-radius: 36px;
+    object-fit: cover;  
 }
 
 .grid-content{
@@ -33,11 +35,10 @@
     margin: 0px;
     font-size: 15px;
     font-weight: 500;
-    margin-bottom: 0rem; 
+ 
 }
 
-p{
-    
+p{ 
     margin-top: 0;
     margin-bottom: 0;  
 }
@@ -58,3 +59,18 @@ margin-right: -1.4px;
     margin-top: 10px;
     margin-bottom: 0.2rem;
 }
+
+.timming{
+    position: absolute;
+    font-family: Roboto, Arial;
+    background-color: black;
+    color: white;
+    right: 5px;
+    bottom: 9px;
+    padding: 4px 2px 4px 2px;
+    font-weight: 500;
+    border-radius: 2px;
+    font-size: medium;
+
+}
+
